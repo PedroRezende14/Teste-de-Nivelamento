@@ -1,0 +1,17 @@
+
+foi utilizado essa biblioteca para Biblioteca para manipular o pdf
+    <dependency>
+        <groupId>org.apache.pdfbox</groupId>
+        <artifactId>pdfbox</artifactId>
+        <version>2.0.30</version>
+    </dependency>
+
+
+foi utilizado essa biblioteca para  Tabula para extração de tabelas 
+    <dependency>
+        <groupId>technology.tabula</groupId>
+        <artifactId>tabula</artifactId>
+        <version>1.0.5</version>
+    </dependency>
+</dependencies>
+
