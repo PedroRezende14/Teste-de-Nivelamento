@@ -12,7 +12,7 @@ public class Main {
 		ExtrairTabela et = new ExtrairTabela();		
 		et.extrair("tabela_extraida", "Anexo1.pdf"); //Setar um nome para o arquivo csv, e informar o anexo.pdf
 		
-													//Informar o CSV,    é possivel selecionar as legendas desejas no arquivo csv
+													//Informar o CSV,    é possivel selecionar as legendas desejadas no arquivo csv
 //																Legendas  OD  AMB    HCO   HSO     REF   PAC
 		ModificadorTabela mt= new ModificadorTabela("tabela_extraida.csv", true, true, false, false, false,false);
 		mt.processarTabelaCompleta();

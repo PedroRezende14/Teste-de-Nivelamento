@@ -7,6 +7,7 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
 public class ModificadorTabela {
+	//Variaveis 
 	private final boolean[] opcoesAtivas;
 	private final String[] legendas;
 	private final int[] colunasAlvo;

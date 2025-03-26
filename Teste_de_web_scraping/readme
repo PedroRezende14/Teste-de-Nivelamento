@@ -1,13 +1,13 @@
 
-### TESTE DE WEB SCRAPING
+TESTE DE WEB SCRAPING
 
-#### Tecnologias utilizadas:
+Tecnologias utilizadas:
 
 Linguagem: Java
 IDE: Eclipse
 Bibliotecas: java.io, java.util.zip, java.nio, java.util.Scanner
 
-#### Funcionalidades solicitadas
+Funcionalidades solicitadas
 
 Baixa dois PDFs de URLs públicas.
 Salva localmente com os nomes Anexo1.pdf e Anexo2.pdf.
@@ -20,28 +20,26 @@ Realiza a compactação dos dois arquivos em diferentes formatos (
     )
 
 
-##### Funcionalidades Extras
+Funcionalidades Extras
 Verificação de arquivos:
 Antes de compactar, verifica se os arquivos foram baixados corretamente.
 
 Customização opcional:
 Permite alterar URLs e nomes dos arquivos antes do download.
 
-#### Estrutura do Projeto
+Estrutura do Projeto
 Classe	        Responsabilidade
 Main	        Ponto de entrada do programa, inicia o download e a compactação.
 InfoAnexos_DTO	Armazena as URLs e nomes dos arquivos (padrão ou customizados).
 Download_Anexos	Gerencia o download dos PDFs usando java.nio.
 Compactador	    Oferece opções de compactação (ZIP, RAR, TAR, TAR.GZ) e verifica arquivos.
 
-
-
-#### Fluxo do Programa:
+Fluxo do Programa:
 
 O programa baixa automaticamente os dois PDFs.
 Exibe um menu para escolher o formato de compactação.
 Gera o arquivo compactado no diretório do projeto.
 
-#### Diagrama de Classes 
+Diagrama de Classes 
 
 ![Diagrama de Scraping](Diagrama_Scraping.png)
