@@ -10,11 +10,13 @@ import java.nio.channels.ReadableByteChannel;
 public class Download_Anexo1 {
 
 	// essa classe é responsável por chamar o metodo para realizar download
-	public void DownloadAnexo(){
+	public void DownloadAnexo(String nomeAnexo){
 		try {
 			Requisicao("https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos/Anexo_I_Rol_2021RN_465.2021_RN627L.2024.pdf"
-					, "./Anexo1.pdf"); 
+					, "./"+nomeAnexo+".pdf"); 
 			
+			System.out.println("Download efetuado com sucesso");
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

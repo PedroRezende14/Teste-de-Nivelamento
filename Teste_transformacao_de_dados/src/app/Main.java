@@ -4,22 +4,21 @@ import java.io.IOException;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
+
+		Download_Anexo1 da = new Download_Anexo1();
+		da.DownloadAnexo("Anexo1"); // Deve passar o nome desejado ao anexo
+	
+		ExtrairTabela et = new ExtrairTabela();		
+		et.extrair("tabela_extraida", "Anexo1.pdf"); //Setar um nome para o arquivo csv, e informar o anexo.pdf
 		
-//		Download_Anexo1 da = new Download_Anexo1();
-//		da.DownloadAnexo();
-//		
-//		ExtrairTabela et = new ExtrairTabela();
-//		et.Extrair();
-//		
-		Modificador_Tabela mt= new Modificador_Tabela("tabela_extraida.csv", true, true, true, true, true);
-		try {
-			mt.processarTabelaCompleta();
-		} catch (IOException e) {
-			
-			e.printStackTrace();
-		}
+													//Informar o CSV,    é possivel selecionar as legendas desejas no arquivo csv
+//																Legendas  OD  AMB    HCO   HSO     REF   PAC
+		ModificadorTabela mt= new ModificadorTabela("tabela_extraida.csv", true, true, false, false, false,false);
+		mt.processarTabelaCompleta();
 		
+		mt.compactarZip("tabela_extraida.csv", "Teste_PedroRezende.zip");
+
 	}
 
 }
