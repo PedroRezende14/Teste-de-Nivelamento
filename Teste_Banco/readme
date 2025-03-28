@@ -1,0 +1,43 @@
+TESTE DE NIVELAMENTO - BANCO DE DADOS
+
+Tecnologias utilizadas:
+PostgreSQL 15: Banco de dados utilizado para armazenar as informações
+Docker: Utilizado para a criação dos containers
+PgAdmin4: Interface gráfica para gerenciamento do banco
+Shell Script: Automação da importação de dados CSV
+
+Funcionalidades 
+Configuração de um ambiente PostgreSQL utilizando Docker
+Criação de uma base de dados e tabela para armazenar demonstrativos contábeis
+Importação de arquivos CSV para a base de dados
+Consultas SQL para obtenção de informações específicas
+Utilização do pgAdmin4 para gerenciamento da base de dados
+Automação do processo de importação de dados utilizando um script Shell
+Configuração do volume para persistência dos dados
+
+Customização opcional:
+Possibilidade de adicionar novos arquivos CSV para importação automática
+Alteração do usuário e senha do banco no docker-compose.yml
+
+Estrutura do Projeto
+Teste_Banco/
+│-- Arquivos/                      # Diretório contendo arquivos CSV
+│-- docker-compose.yml              # Configuração dos containers Docker
+│-- import_csv.sh                   # Script de importação de dados CSV
+│-- init.sql                         # Script de criação da tabela
+│-- pgadmin-server.json              # Configuração do pgAdmin
+│-- Queys/                           # Diretório com as queries SQL
+    │-- m.d.Ano.sql                  # Consultas por ano
+    │-- m.d.UltimoTrimestre.sql       # Consultas por trimestre
+
+Fluxo do Programa:
+Inicialização do ambiente:
+docker-compose up -d para subir os containers do PostgreSQL e PgAdmin.
+
+Criação da estrutura do banco:
+O init.sql é executado automaticamente no primeiro start do container.
+Importação dos arquivos CSV:
+O script import_csv.sh executa a importação dos arquivos CSV para a base de dados.
+Execução das consultas:
+As queries SQL no diretório Queys/ podem ser executadas diretamente no pgAdmin ou via terminal.
+
