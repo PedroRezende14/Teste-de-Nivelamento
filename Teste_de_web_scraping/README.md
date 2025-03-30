@@ -12,7 +12,7 @@
 - Baixar dois PDFs de URLs públicas;
 - Salvar localmente com os nomes Anexo1.pdf e Anexo2.pdf.
 
-**[EXTRA] Funcionalidades adicionais**
+**[EXTRA] Funcionalidades adicionais:**
 - Realiza a compactação dos dois arquivos em diferentes formatos (.zip, .rar, .tar, .tar.gz) ou de todos ao mesmo tempo;
 - Antes de compactar, verifica se os arquivos foram baixados corretamente.
 - Customização opcional: Permite alterar URL's e nomes dos arquivos antes do download.
