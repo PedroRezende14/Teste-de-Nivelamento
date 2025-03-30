@@ -34,9 +34,9 @@
 
 **Diagrama de Classes:**
 
-![Diagrama de Scraping](img/Diagrama_Scraping.png)
+<img src="img/Diagrama_Scraping.png">
 
-#### Executando o projeto:
+### Executando o projeto:
 
 O projeto baixa dois PDF’s de URL’s públicas. Salva localmente com os nomes Anexo1.pdf e Anexo2.pdf. Realiza a compactação dos dois arquivos em diferentes formatos ( zip, rar, tar e tar.gz).
 
