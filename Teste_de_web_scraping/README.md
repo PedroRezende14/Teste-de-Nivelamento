@@ -3,9 +3,9 @@
 
 **Tecnologias utilizadas:** 
 
-**Linguagem:** Java
-**IDE:** Eclipse
-**Bibliotecas:** java.io, java.util.zip, java.nio, java.util.Scanner
+- **Linguagem:** Java
+- **IDE:** Eclipse
+- **Bibliotecas:** java.io, java.util.zip, java.nio, java.util.Scanner
 <br>
 
 **Funcionalidades solicitadas:**
@@ -43,14 +43,17 @@ O projeto baixa dois PDF’s de URL’s públicas. Salva localmente com os nomes
 **Etapa 1 - Baixando os arquivos**
 
 **1.1** Diretório antes do download dos arquivos:
+
 <img src="img/teste_web_scraping_1.1.png">
 
 **1.2** Executando apenas o método de download:
+
 <img src="img/teste_web_scraping_1.2.png">
 
 **[EXTRA]** Para deixar o teste ainda mais completo, implementei a funcionalidade que permite personalizar o nome do arquivo, e a URL que buscará para fazer o download, sendo assim, o programa pode ser utilizado genericamente, não apenas com a URL solicitada.
 
 **1.3** Executando apenas o método de download:
+
 <img src="img/teste_web_scraping_1.3.png">
 
 **Etapa 2 - Compactando os arquivos**
