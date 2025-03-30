@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "6f815ebd-40e9-4557-8587-4a330e9bd1d1",
+		"name": "TesteApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43594212",
+		"_collection_link": "https://pedrorezende14.postman.co/workspace/PedroRezende14's-Workspace~1209a59c-afa2-4599-82d5-f969e587f24a/collection/43594212-6f815ebd-40e9-4557-8587-4a330e9bd1d1?action=share&source=collection_link&creator=43594212"
+	},
+	"item": [
+		{
+			"name": "Servidor",
+			"item": [
+				{
+					"name": "ServerPython",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/operadoras",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"operadoras"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Banco de dados",
+			"item": [
+				{
+					"name": "PgAdmin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5050/login?next=/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"login"
+							],
+							"query": [
+								{
+									"key": "next",
+									"value": "/"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
