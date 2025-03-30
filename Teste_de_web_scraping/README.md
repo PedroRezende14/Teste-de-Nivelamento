@@ -2,6 +2,7 @@
 ### TESTE DE WEB SCRAPING
 
 **Tecnologias utilizadas:** 
+
 **Linguagem:** Java
 **IDE:** Eclipse
 **Bibliotecas:** java.io, java.util.zip, java.nio, java.util.Scanner
@@ -9,7 +10,7 @@
 
 **Funcionalidades solicitadas:**
 - Baixar dois PDFs de URLs públicas;
-- Salva localmente com os nomes Anexo1.pdf e Anexo2.pdf.
+- Salvar localmente com os nomes Anexo1.pdf e Anexo2.pdf.
 
 **[EXTRA] Funcionalidades adicionais**
 - Realiza a compactação dos dois arquivos em diferentes formatos (.zip, .rar, .tar, .tar.gz) ou de todos ao mesmo tempo;
@@ -57,21 +58,27 @@ O projeto baixa dois PDF’s de URL’s públicas. Salva localmente com os nomes
 **[EXTRA]** Adicionei um menu que oferece ao usuário a opção de selecionar o formato desejado para o arquivo compactado. Ele aparece após a execução do método.
 
 **2.1** Menu de compactação: 
+
 <img src="img/teste_web_scraping_2.1.png">
 
 **2.2** Formato .zip:
+
 <img src="img/teste_web_scraping_2.2.png">
 
-**2.3** Formato .rar:
+**2.3** Formato .rar: 
+
 <img src="img/teste_web_scraping_2.3.png">
 
 **2.4** Formato .tar:
+
 <img src="img/teste_web_scraping_2.4.png">
 
 **2.5** Formato .tar.gz:
+
 <img src="img/teste_web_scraping_2.5.png">
 
 **2.6** Todos os formatos:
+
 Obs.: Os arquivos gerados anteriormente foram apagados.
 <img src="img/teste_web_scraping_2.6.png">
 
