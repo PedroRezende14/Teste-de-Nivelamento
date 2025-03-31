@@ -14,7 +14,7 @@
 
 **[EXTRA] Funcionalidades adicionais:**
 - Realiza a compactação dos dois arquivos em diferentes formatos (.zip, .rar, .tar, .tar.gz) ou de todos ao mesmo tempo;
-- Antes de compactar, verifica se os arquivos foram baixados corretamente.
+- Antes de compactar, verifica se os arquivos foram baixados corretamente;
 - Customização opcional: Permite alterar URL's e nomes dos arquivos antes do download.
 
 **Estrutura do Projeto:**
@@ -83,6 +83,7 @@ O projeto baixa dois PDF’s de URL’s públicas. Salva localmente com os nomes
 **2.6** Todos os formatos:
 
 Obs.: Os arquivos gerados anteriormente foram apagados.
+
 <img src="img/teste_web_scraping_2.6.png">
 
 

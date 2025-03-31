@@ -47,7 +47,7 @@
 
 ### Executando o projeto:
 
-Após a execução do método de compactação, o programa oferece ao usuário a opção de selecionar o formato desejado para o arquivo compactado, e depois compactar a tabela em .zip 
+Após a execução do método de compactação, o programa oferece ao usuário a opção de selecionar o formato desejado para o arquivo compactado, e depois compactar a tabela em .zip.
 
 **Etapa 1 - Download do anexo e criação da tabela**
 
@@ -65,7 +65,7 @@ Após a execução do método de compactação, o programa oferece ao usuário a
 
 **Etapa 2 - Modificando a tabela**
 
-[EXTRA] É possível selecionar as legendas desejadas no arquivo CSV. Para modificar, basta definir como true ou false.
+**[EXTRA]** É possível selecionar as legendas desejadas no arquivo CSV. Para modificar, basta definir como true ou false.
 Legendas disponíveis: OD, AMB, HCO, HSO, REF, PAC.
 
 **2.1** Método ModificadorTabela:

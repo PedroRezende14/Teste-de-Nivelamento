@@ -15,7 +15,7 @@
 - Elaboração de uma coleção no Postman.
 
 **[EXTRA] Funcionalidades adicionais:**
-- Mecanismo de pesquisa na tabela disponibilizada pelo servidor;
+- Mecanismo de pesquisa na tabela disponibilizada pelo servidor.
 
 **Estrutura do Projeto:**
 
@@ -29,9 +29,9 @@
 
 **Fluxo do Programa:**
 - Inicialização do Servidor:
-    - *python3 app.py* para subir o servidor, 
+    - *python3 app.py* para subir o servidor. 
 - Inicialização do vue.js:
-    - *npm run dev* para rodar a interface web
+    - *npm run dev* para rodar a interface web.
 - O servidor vai acessar o banco de dados, e vai fornecer o dados em formato json, para vue, esses dados serão exeposto em formato de tabela.
 
 ### Executando o projeto:
@@ -72,7 +72,7 @@ Acesse *http://localhost:5173/* no navegador para verificar se o Vue.js está re
 
 **Etapa 4  - Mecanismo de pesquisa**
 
-[EXTRA] É possível realizar buscas nos campos Registro ANS, CNPJ, Razão Social, Modalidade, CEP, Telefone, Endereço Eletrônico, Representante e Cargo Representante.
+**[EXTRA]** É possível realizar buscas nos campos Registro ANS, CNPJ, Razão Social, Modalidade, CEP, Telefone, Endereço Eletrônico, Representante e Cargo Representante.
 
 **4.1** Barra de pesquisa:
 
@@ -88,7 +88,7 @@ Exemplo: Pesquisa por Registro ANS e por e-mail.
 
 **Etapa 5  - Outros Testes**
 
-[EXTRA] Realizei testes para ver como a aplicação responde em determinadas situações. 
+**[EXTRA]** Realizei testes para ver como a aplicação responde em determinadas situações. 
 
 <img src="img/tabela_teste_api_4.2.1.png">
 

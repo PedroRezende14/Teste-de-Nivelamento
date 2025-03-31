@@ -105,7 +105,7 @@ Acesse a porta 5050 do seu navegador: http://localhost:5050, e faça login:
 
 <img src="img/teste_banco_2.4.1.png">
 
-Executando o script para preencher a tabela: chmod +x concede permissão ao arquivo, e ./ o executa. 
+Executando o script para preencher a tabela: *chmod +x* concede permissão ao arquivo, e *./* o executa. 
 O script cria uma tabela temporária para armazenar os dados, importa-os para o banco e, em seguida, a remove.
 
 **2.5** Inserindo os dados na tabela, via script:
