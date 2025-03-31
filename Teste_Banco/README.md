@@ -129,20 +129,25 @@ As queries de consulta estão localizadas na pasta Querys, onde arquivos como m.
 **3.1** Quais as 10 operadoras com maiores despesas em "Eventos/Sinistros conhecidos ou avisados de assistência à saúde médico-hospitalar” no último trimestre?
 
 Ano 2007:
+
 <img src="img/teste_banco_3.1.png">
 
 Resultado:
+
 <img src="img/teste_banco_3.1.1.png">
 
 Ano 2008:
+
 <img src="img/teste_banco_3.2.png">
 
 Resultado:
+
 <img src="img/teste_banco_3.2.1.png">
 
 **3.2** Quais as 10 operadoras com maiores despesas nessa categoria no último ano?
 
 Ano 2008:
+
 <img src="img/teste_banco_3.3.png">
 
 
